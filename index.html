@@ -1,0 +1,201 @@
+<!-- 
+  OI AMOR
+  eu instalei essa extensao que mostra uma barrinha colorida , eu acho que com ela voce vai conseguir ver melhor o que faz parte de cada
+  div e o que nao faz parte, assim fica mais facil de entender o que ta acontecendo no codigo.
+
+  
+  quando ela estiver vermelhinha do lado
+   <-- tipo assim
+  eh pq a formatacao ta errada, as vezes é so um espacinho a mais (ou a menos)
+  
+  !!sempre se lembra de fechar as divs!!
+
+  deixei varios comentarios no codigo pra ver se ajuda, mas se tiver alguma duvida me avisa que eu explico melhor
+  
+  vou botar aqui tambem uns atalhos pra voce ir pegando a pratica de usar
+  ALT + SHIFT: muda o idioma do teclado, provavelmente ele vai estar em ingles na primeira vez que ligar o computador
+  ALT + setas do teclado: move a linha de codigo pra cima ou pra baixo
+  ALT + SHIFT + setas do teclado: copia a linha de codigo pra cima ou pra baixo
+  CTRL + F ou CTRL + H: abre a barra de pesquisa, se voce quiser pesquisar por alguma coisa no codigo
+  CTRL + ; : comenta ou descomenta a linha que estiver selecionada, ou a linha onde o cursor estiver posicionado
+  CTRL + B: abre e fecha a barra lateral
+
+
+  mudei o tema tbm pra ver se fica mais facil de ler, mas se voce nao gostar pode mudar de novo, eh so clicar no icone de engrenagem que fica no canto inferior esquerdo da tela
+  e escolher outro tema
+  -->
+
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="barra">
+      <img src="img/logo.png" alt="GitHub Logo" class="logo" />
+      <div class="itens">
+        <p>Sobre Mim</p>
+        <p>Educação</p>
+        <p>Habilidades Tecnicas</p>
+        <p>Experiências</p>
+      </div>
+    </div>
+    <div class="sobremim">
+      <img src="img/yves.png" alt="Yves" class="perfil" />
+      <div class="yves">
+        <h1>SOBRE MIM:</h1>
+        <p class="texto">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+
+        <div class="links">
+          <div class="orglinks">
+            <span class="material-icons">mail</span>
+            <a href="mailto:leticiaregisdecarvalho@gmail.com" target="_blank"
+              >leticiaregisdecarvalho@gmail.com</a
+            >
+          </div>
+          <div class="orglinks">
+            <span class="material-icons">toc</span>
+            <a
+              href="https://www.linkedin.com/in/leticiaregisdecarvalho/"
+              target="_blank"
+              >Linkedin</a
+            >
+          </div>
+          <div class="orglinks">
+            <span class="material-icons">toc</span>
+            <a
+              href="https://www.linkedin.com/in/leticiaregisdecarvalho/"
+              target="_blank"
+              >GitHub</a
+            >
+          </div>
+          <div class="orglinks">
+            <span class="material-icons">call</span>
+            <p>(11) 94378-6401</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="educacao">
+      <h1>EDUCAÇÃO</h1>
+
+      <!-- a div ORGEDUCACAO vai ser a div que vai deixar as coisas uma do lado da outra. pra isso, ela precisa ter 2 divs dentro dela -->
+      <div class="orgeducacao">
+
+        <!-- voce pode criar aqui uma div ESCOLARIDADEHABILIDADE, e dentro dela obviamente colocar a escolaridade e a habilidade. se voce 
+        fizer dessa forma as duas divs (escolaridade e habilidade ficarao uma em cima da outra)  -->
+
+        <div class="escolaridadehabilidade">
+        <div class="escolaridade">
+          <h2>Escolaridade</h2>
+          <div class="nomescolaridade">
+            <span class="material-icons">star</span>
+            <h3>2020 - 2022</h3>
+            <div class="lugar">
+          <p class="atividade">Desenvolvimento de Sistemas</p>
+            <p>ETEC de Guarulhos</p>
+              </div>
+          </div>
+          <div class="nomescolaridade">
+          <span class="material-icons">star</span>
+            <h3>2024 - 2026</h3>
+            <div class="lugar">
+            <p class="atividade">Analise e Desenvolvimento de Sistemas</p>
+            <p>Universidade Cruzeireiro do Sul</p>
+          </div>
+        </div>
+
+        <!-- aqui voce FECHA a div escolaridade e abre a div HABILIDADE, do jeito que ta aqui a habilidade esta dentro da div de escolaridade (tenta
+         usar as setinhas que aparecem do lado do numero da linha quando voce passa o mouse por cima, elas ajudam voce a se localizar melhor!) -->
+        <div class="habilidades">
+          <h2>Habilidades</h2>
+          <div class="nomehabilidade ingles">
+            <span class="material-icons">star</span>
+            <h3>Inglês</h3>
+              <div class="lugar lugaridioma">
+            <p class="atividade">Intermediário</p>
+            <p>Leitura, escrita e conversação desenvolvidadas trabalhando com
+              nativos.
+            </p>
+            </div>
+          </div>
+          <div class="nomehabilidade">
+          <span class="material-icons">star</span>
+            <h3>Espanhol</h3>
+            <div class="lugar lugarespanhol">
+            <p class="atividade">Básico</p>
+            <p>Conversação desenvolvida trabalhando com nativos.</p>
+            </div>
+          </div>
+        </div>
+        </div>
+        </div>
+        <!-- essa div CURSOS pode ser movida para fora da div ESCOLARIDADEHABILIDADE, ela ficaria dentro da div ORGEDUCACAO pq eh nela que vamos deixar
+         as coisas lado a lado-->
+        <div class="cursos">
+          <h2>Cursos</h2>
+
+          
+          <div class="nomecurso">
+          <span class="material-icons">star</span>
+            <h3>2023 - 08h</h3>
+            <p>Modelo de Negócios - Canva</p>
+          </div>
+
+          <div class="nomecurso">
+            <span class="material-icons">star</span>
+            <h3>2024 - 11h</h3>
+            <p>Robôs de Busca na Melhoria de Resultados em Campanhas Digitais</p>
+          </div>
+
+          <div class="nomecurso">
+          <span class="material-icons">star</span>
+            <h3>2024 - 11h</h3>
+            <p>CIBERSEGURANÇA: Anatomia Classica de um Ciberataque</p>
+          </div>
+            
+          <div class="nomecurso">
+          <span class="material-icons">star</span>
+            <h3>2024 - 15h</h3>
+            <p>Introducao ao GitHub</p>
+          </div>
+
+          <div class="nomecurso">
+          <span class="material-icons">star</span>
+            <h3>2024 - 40h</h3>
+            <p>Introdução a Ciência de Dados</p>
+          </div>
+
+          <div class="nomecurso">
+          <span class="material-icons">star</span>
+            <h3>2025 - 05h</h3>
+            <p>Figma Design de interfaces do zero ao profissional 2025</p>
+          </div>
+
+          <div class="nomecurso">
+            <span class="material-icons">star</span>
+            <h3>2025 - ??h</h3>
+            <p>FrontCode: Guia do Dev</p>
+              </div>
+      </div>
+      </div>
+    </div>
+  </body>
+</html>

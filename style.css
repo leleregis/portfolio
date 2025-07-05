@@ -1,0 +1,214 @@
+/* 
+    nao esquece que
+    .nomedeexemplo = classe
+    #idexemplo = id
+    
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #526837;
+
+}
+
+.barra { 
+    display: flex; 
+    align-items: center;
+    margin: 30px;
+}
+
+.itens {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex: 1;
+    color: #F7ECCF;
+}
+.sobremim {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+margin-top: 5rem;
+    flex: 1;
+    color: #DDC89D;
+    margin-bottom: 15rem     
+}
+.itens p {
+    font-size: 1.3rem;  
+}
+
+.yves {
+    margin-left: -10rem;
+}
+.yves h1 {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 4.5rem;
+    margin: 0;
+    text-shadow: 3px 5px 0px rgba(0,0,0,0.24);
+}
+
+.yves p.texto {
+width: 45rem;
+font-size: 1.8rem;
+}
+
+
+.links {
+display: flex;
+flex-direction: column;
+gap: 7px;
+}
+
+.orglinks {
+display: flex;
+align-items: center;
+gap: 5px;
+}
+
+.orglinks a, .orglinks p{
+    color: #F7ECCF;
+    font-size: 1.3rem;
+    margin: 0;
+}
+
+
+.orgeducacao {
+    display: flex;
+    justify-content: space-between;
+}
+/* COMO >>EU<< FARIA */
+
+/*  eu criaria um 
+    .orgeducacao {
+        display: flex;
+    }
+    por que? porque se o objetivo é 
+    deixar as coisas que estao dentro da div .orgeducacao lado a lado o display: flex; vai fazer isso
+
+    acho que isso ja resolve o problema de espaçamento 
+*/
+
+.educacao{
+background-color: #C77C77;
+padding-left: 5rem;
+padding-right: 5rem;
+}
+
+.educacao h1{
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 3.5rem;
+    display: flex;
+    justify-content: center;
+    text-shadow: 3px 5px 0px rgba(0,0,0,0.24);
+    color: #DDC89D;
+    padding-top: 5rem;
+}
+
+.escolaridade h2, .cursos h2, .habilidade h2 {
+    text-shadow: 3px 5px 0px rgba(0,0,0,0.24);
+    color: #DDC89D;
+    padding: 1rem;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 2.5rem;
+
+}
+
+.nomescolaridade {
+    display: flex;
+    align-items: baseline;
+    color: #F7ECCF;
+    gap: 7px;
+
+}
+
+.nomescolaridade h3 {
+    font-size: 1.5rem;
+    margin-right: 1.9rem;
+}
+.lugar p, .lugar h4  {
+    margin: 0;
+    font-size: 1.3rem;
+}
+
+.lugar p {
+margin-left: 2rem;
+}
+.nomehabilidade {
+    display: flex;
+    align-items: baseline;
+    color: #F7ECCF;
+    gap: 20px;
+
+}
+
+.lugar.lugaridioma {
+    width: 30rem;
+}
+
+.lugar.lugarespanhol {
+    margin-left: 1.8rem;
+}
+
+.nomehabilidade h3{
+    font-size: 1.5rem;
+}
+.nomehabilidade.ingles h3 {
+font-size: 1.5rem;
+margin-right: 4rem;
+}
+
+p.atividade, .nomecurso p{
+font-size: 1.6rem;
+}
+
+/* 
+existem algumas maneiras de evitar repeticao de codigo! as 2 maneiras mais faceis sao:
+1. colocar a mesma classe em todos os cursos que terao os mesmos estilos
+2. quando tiver classes com nomes diferentes mas que tenham os mesmos estilos voce pode fazer assim:
+
+.nomecurso1, .nomecurso2, .nomecurso3, .nomecurso4, .nomecurso5, .nomecurso6, .nomecurso7 {
+    display: flex;
+    align-items: baseline;
+    color: #F7ECCF;
+    gap: 20px;
+}
+*/
+.nomecurso{
+    display: flex;
+    align-items: baseline;
+    color: #F7ECCF;
+    gap: 20px;
+    font-size: 1.3em;
+        width: 53rem
+;
+}
+
+.nomecurso h3{
+min-width: 10rem;
+min-height: 3rem;
+}
+
+.nomecurso p {
+    font-size: 1.6rem;
+    margin-left: 2rem;
+}
+.curso h3{
+    width: 8.9rem;
+}
+
+.escolaridadehabilidade {
+    display: flex;
+    flex-direction: column;
+
+}
+.cursos {
+    display: flex;
+    flex-direction: column;
+
+}
