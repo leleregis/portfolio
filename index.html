@@ -1,31 +1,3 @@
-<!-- 
-  OI AMOR
-  eu instalei essa extensao que mostra uma barrinha colorida , eu acho que com ela voce vai conseguir ver melhor o que faz parte de cada
-  div e o que nao faz parte, assim fica mais facil de entender o que ta acontecendo no codigo.
-
-  
-  quando ela estiver vermelhinha do lado
-   <-- tipo assim
-  eh pq a formatacao ta errada, as vezes é so um espacinho a mais (ou a menos)
-  
-  !!sempre se lembra de fechar as divs!!
-
-  deixei varios comentarios no codigo pra ver se ajuda, mas se tiver alguma duvida me avisa que eu explico melhor
-  
-  vou botar aqui tambem uns atalhos pra voce ir pegando a pratica de usar
-  ALT + SHIFT: muda o idioma do teclado, provavelmente ele vai estar em ingles na primeira vez que ligar o computador
-  ALT + setas do teclado: move a linha de codigo pra cima ou pra baixo
-  ALT + SHIFT + setas do teclado: copia a linha de codigo pra cima ou pra baixo
-  CTRL + F ou CTRL + H: abre a barra de pesquisa, se voce quiser pesquisar por alguma coisa no codigo
-  CTRL + ; : comenta ou descomenta a linha que estiver selecionada, ou a linha onde o cursor estiver posicionado
-  CTRL + B: abre e fecha a barra lateral
-
-
-  mudei o tema tbm pra ver se fica mais facil de ler, mas se voce nao gostar pode mudar de novo, eh so clicar no icone de engrenagem que fica no canto inferior esquerdo da tela
-  e escolher outro tema
-  -->
-
-
 <!DOCTYPE html>
 <html lang="pt-BR">
   <head>
@@ -95,13 +67,7 @@
     </div>
     <div class="educacao">
       <h1>EDUCAÇÃO</h1>
-
-      <!-- a div ORGEDUCACAO vai ser a div que vai deixar as coisas uma do lado da outra. pra isso, ela precisa ter 2 divs dentro dela -->
       <div class="orgeducacao">
-
-        <!-- voce pode criar aqui uma div ESCOLARIDADEHABILIDADE, e dentro dela obviamente colocar a escolaridade e a habilidade. se voce 
-        fizer dessa forma as duas divs (escolaridade e habilidade ficarao uma em cima da outra)  -->
-
         <div class="escolaridadehabilidade">
         <div class="escolaridade">
           <h2>Escolaridade</h2>
@@ -111,7 +77,7 @@
             <div class="lugar">
           <p class="atividade">Desenvolvimento de Sistemas</p>
             <p>ETEC de Guarulhos</p>
-              </div>
+            </div>
           </div>
           <div class="nomescolaridade">
           <span class="material-icons">star</span>
@@ -121,9 +87,6 @@
             <p>Universidade Cruzeireiro do Sul</p>
           </div>
         </div>
-
-        <!-- aqui voce FECHA a div escolaridade e abre a div HABILIDADE, do jeito que ta aqui a habilidade esta dentro da div de escolaridade (tenta
-         usar as setinhas que aparecem do lado do numero da linha quando voce passa o mouse por cima, elas ajudam voce a se localizar melhor!) -->
         <div class="habilidades">
           <h2>Habilidades</h2>
           <div class="nomehabilidade ingles">
@@ -147,12 +110,8 @@
         </div>
         </div>
         </div>
-        <!-- essa div CURSOS pode ser movida para fora da div ESCOLARIDADEHABILIDADE, ela ficaria dentro da div ORGEDUCACAO pq eh nela que vamos deixar
-         as coisas lado a lado-->
         <div class="cursos">
           <h2>Cursos</h2>
-
-          
           <div class="nomecurso">
           <span class="material-icons">star</span>
             <h3>2023 - 08h</h3>
@@ -197,5 +156,53 @@
       </div>
       </div>
     </div>
+    
+      <div class="habtec">
+        <h1>HABILIDADES TÉCNICAS</h1>
+        <div class="orghabtec">
+          <div class="figma hab  ">
+            <img src="img/figma.png" alt="figma" class="tecapp1" />
+            <p class="app">FIGMA</p>
+            <img src="img/fourstars.png" alt="fourstars" class="nota" />
+          </div>          
+          <div class="photoshop hab">
+            <img src="img/photoshop.png" alt="photoshop" class="tecapp2" />
+            <p class="app">PHOTOSHOP</p>
+            <img src="img/fivestars.png" alt="fivestars" class="nota" />
+          </div>        
+          <div class="html hab">
+            <img src="img/html.png" alt="html" class="tecapp3" />
+            <p class="app">HTML</p>
+            <img src="img/threstars.png" alt="threstars" class="nota" />
+          </div>          
+          <div class="css hab">
+            <img src="img/css.png" alt="css" class="tecapp4" />
+            <p class="app">CSS</p>
+            <img src="img/threstars.png" alt="threstars" class="nota" />
+        </div>       
+      </div>
+      </div>
+      <div class="experiencias">
+        <h1>EXPERIÊNCIAS</h1>
+        <div class="orgexp">
+        <div class="cinemark exp"> 
+          <img src="img/cinemark.png" alt="cinemark" class="cinemark" />
+          <p class="cinemarktexto"> CINEMARK </p>
+          <div class="data">
+          <p class="subtexto">05/2023</p>
+          <span class="material-icons">star</span>
+          <p class="subtexto">01/2024</p>
+          </div>
+          </div>
+        <div class="orbital exp">
+          <img src="img/orb.png" alt="orbital" class="orbital" />
+          <p class="orbitaltexto"> ORBITAL </p>
+          <div class="data">
+          <p class="subtexto">02/2024</p>
+          <span class="material-icons">star</span>
+          <p class="subtexto">Atualmente</p>
+          </div>
+        </div>
+      </div>
   </body>
 </html>

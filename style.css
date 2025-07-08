@@ -1,10 +1,3 @@
-/* 
-    nao esquece que
-    .nomedeexemplo = classe
-    #idexemplo = id
-    
-*/
-
 @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
 html, body {
     margin: 0;
@@ -82,25 +75,15 @@ gap: 5px;
     display: flex;
     justify-content: space-between;
 }
-/* COMO >>EU<< FARIA */
 
-/*  eu criaria um 
-    .orgeducacao {
-        display: flex;
-    }
-    por que? porque se o objetivo é 
-    deixar as coisas que estao dentro da div .orgeducacao lado a lado o display: flex; vai fazer isso
-
-    acho que isso ja resolve o problema de espaçamento 
-*/
-
-.educacao{
+.educacao , .habtec{
 background-color: #C77C77;
 padding-left: 5rem;
 padding-right: 5rem;
+padding-top: 1rem;
 }
 
-.educacao h1{
+.educacao h1, .habtec h1, .experiencias h1 {
     font-family: 'Luckiest Guy', cursive;
     font-size: 3.5rem;
     display: flex;
@@ -115,8 +98,7 @@ padding-right: 5rem;
     color: #DDC89D;
     padding: 1rem;
     font-family: 'Luckiest Guy', cursive;
-    font-size: 2.5rem;
-
+font-size: 2.5rem;
 }
 
 .nomescolaridade {
@@ -164,28 +146,16 @@ margin-right: 4rem;
 }
 
 p.atividade, .nomecurso p{
-font-size: 1.6rem;
+font-size: 1.5rem;
 }
 
-/* 
-existem algumas maneiras de evitar repeticao de codigo! as 2 maneiras mais faceis sao:
-1. colocar a mesma classe em todos os cursos que terao os mesmos estilos
-2. quando tiver classes com nomes diferentes mas que tenham os mesmos estilos voce pode fazer assim:
-
-.nomecurso1, .nomecurso2, .nomecurso3, .nomecurso4, .nomecurso5, .nomecurso6, .nomecurso7 {
-    display: flex;
-    align-items: baseline;
-    color: #F7ECCF;
-    gap: 20px;
-}
-*/
 .nomecurso{
     display: flex;
     align-items: baseline;
     color: #F7ECCF;
     gap: 20px;
     font-size: 1.3em;
-        width: 53rem
+    width: 53rem
 ;
 }
 
@@ -210,5 +180,81 @@ min-height: 3rem;
 .cursos {
     display: flex;
     flex-direction: column;
+}
+.app {
+    color: #F7ECCF;
+    font-size: 1.5rem;
+    margin: 0;
+    text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.479);
+}
 
+.nota {
+    width: 10rem;
+    height: 2rem;
+    margin-top: 0.5rem;
+}
+
+.tecapp1, .tecapp2, .tecapp3, .tecapp4 {
+    display: flex;
+    align-items: baseline;
+    color: #F7ECCF;
+    gap: 20px;
+}
+
+.cinemarktexto, .orbitaltexto {
+    text-shadow: 3px 5px 0px rgba(0,0,0,0.24);
+    color: #DDC89D;
+    padding: 1rem;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.subtexto{
+    display: flex;
+    color: #F7ECCF;
+    gap: 20px;
+    font-size: 1.3em;
+}
+
+.hab {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.orghabtec {
+    display: flex;  
+gap: 13rem;
+    align-items: center;
+    justify-content: center;
+padding-bottom: 15rem;
+padding-top: 5rem;
+}  
+
+
+.data {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #F7ECCF;
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.exp {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.orgexp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30rem;
+    padding-bottom: 10rem;
+}
+
+.data span, .nomecurso span, .nomescolaridade span, .nomehabilidade span {
+    color: #A9363D;
 }
