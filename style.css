@@ -10,13 +10,13 @@ body {
 
 }
 
-.barra { 
+.barra{ 
     display: flex; 
     align-items: center;
     margin: 30px;
 }
 
-.itens {
+.itens{
     display: flex;
     justify-content: center;
     gap: 30px;
@@ -37,7 +37,7 @@ margin-top: 5rem;
 }
 
 .yves {
-    margin-left: -10rem;
+    margin-left: -5rem;
 }
 .yves h1 {
     font-family: 'Luckiest Guy', cursive;
@@ -64,7 +64,7 @@ align-items: center;
 gap: 5px;
 }
 
-.orglinks a, .orglinks p{
+.orglinks a, .orglinks p {
     color: #F7ECCF;
     font-size: 1.3rem;
     margin: 0;
@@ -112,6 +112,7 @@ font-size: 2.5rem;
 .nomescolaridade h3 {
     font-size: 1.5rem;
     margin-right: 1.9rem;
+    text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.479)
 }
 .lugar p, .lugar h4  {
     margin: 0;
@@ -120,13 +121,13 @@ font-size: 2.5rem;
 
 .lugar p {
 margin-left: 2rem;
+text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.479)
 }
 .nomehabilidade {
     display: flex;
     align-items: baseline;
     color: #F7ECCF;
     gap: 20px;
-
 }
 
 .lugar.lugaridioma {
@@ -139,10 +140,12 @@ margin-left: 2rem;
 
 .nomehabilidade h3{
     font-size: 1.5rem;
+    text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.479)
 }
 .nomehabilidade.ingles h3 {
-font-size: 1.5rem;
-margin-right: 4rem;
+    font-size: 1.5rem;
+    margin-right: 4rem;
+    text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.479)
 }
 
 p.atividade, .nomecurso p{
@@ -162,11 +165,13 @@ font-size: 1.5rem;
 .nomecurso h3{
 min-width: 10rem;
 min-height: 3rem;
+text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.479)
 }
 
 .nomecurso p {
     font-size: 1.6rem;
     margin-left: 2rem;
+    text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.479)
 }
 .curso h3{
     width: 8.9rem;
@@ -201,7 +206,7 @@ min-height: 3rem;
     gap: 20px;
 }
 
-.cinemarktexto, .orbitaltexto {
+.cinemarktexto, .orbitaltexto, .proairtexto {
     text-shadow: 3px 5px 0px rgba(0,0,0,0.24);
     color: #DDC89D;
     padding: 1rem;
@@ -251,10 +256,41 @@ padding-top: 5rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 30rem;
+    gap: 10rem;
     padding-bottom: 10rem;
 }
 
 .data span, .nomecurso span, .nomescolaridade span, .nomehabilidade span {
     color: #A9363D;
+}
+
+.logofooter{
+    display: flex;
+    justify-content: center;
+    background-color: #C77C77;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 1.5rem;
+}
+.orglinksfooter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.orglinksfooter a{
+    color: #F7ECCF;
+    font-size: 1.3rem;
+    margin: 0;
+}
+
+.orglinksfooter{
+    display: flex;
+    justify-content: center;
+    background-color: #C77C77;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
 }
