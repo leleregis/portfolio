@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #526837;
+
+}
+
+.barra{ 
+    display: flex; 
+    align-items: center;
+    margin: 30px;
+}
+
+.itens{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex: 1;
+    color: #F7ECCF;
+}
+.sobremim {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+margin-top: 5rem;
+    flex: 1;
+    color: #DDC89D;
+    margin-bottom: 15rem     
+}
+.itens p {
+    font-size: 1.3rem;  
+}
+
+.yves {
+    margin-left: -5rem;
+}
+.yves h1 {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 4.5rem;
+    margin: 0;
+    text-shadow: 3px 5px 0px rgba(0,0,0,0.24);
+}
+
+.yves p.texto {
+width: 45rem;
+font-size: 1.8rem;
+}
+
+
+.links {
+display: flex;
+flex-direction: column;
+gap: 7px;
+}
+
+.orglinks {
+display: flex;
+align-items: center;
+gap: 5px;
+}
+
+.orglinks a, .orglinks p {
+    color: #F7ECCF;
+    font-size: 1.3rem;
+    margin: 0;
+}
+
+
+.orgeducacao {
+    display: flex;
+    justify-content: space-between;
+}
+
+.educacao , .habtec{
+background-color: #C77C77;
+padding-left: 5rem;
+padding-right: 5rem;
+padding-top: 1rem;
+}
+
+.educacao h1, .habtec h1, .experiencias h1 {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 3.5rem;
+    display: flex;
+    justify-content: center;
+    text-shadow: 3px 5px 0px rgba(0,0,0,0.24);
+    color: #DDC89D;
+    padding-top: 5rem;
+}
+
+.escolaridade h2, .cursos h2, .habilidade h2 {
+    text-shadow: 3px 5px 0px rgba(0,0,0,0.24);
+    color: #DDC89D;
+    padding: 1rem;
+    font-family: 'Luckiest Guy', cursive;
+font-size: 2.5rem;
+}
+
+.nomescolaridade {
+    display: flex;
+    align-items: baseline;
+    color: #F7ECCF;
+    gap: 7px;
+
+}
+
+.nomescolaridade h3 {
+    font-size: 1.5rem;
+    margin-right: 1.9rem;
+    text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.479)
+}
+.lugar p, .lugar h4  {
+    margin: 0;
+    font-size: 1.3rem;
+}
+
+.lugar p {
+margin-left: 2rem;
+text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.479)
+}
+.nomehabilidade {
+    display: flex;
+    align-items: baseline;
+    color: #F7ECCF;
+    gap: 20px;
+}
+
+.lugar.lugaridioma {
+    width: 30rem;
+}
+
+.lugar.lugarespanhol {
+    margin-left: 1.8rem;
+}
+
+.nomehabilidade h3{
+    font-size: 1.5rem;
+    text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.479)
+}
+.nomehabilidade.ingles h3 {
+    font-size: 1.5rem;
+    margin-right: 4rem;
+    text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.479)
+}
+
+p.atividade, .nomecurso p{
+font-size: 1.5rem;
+}
+
+.nomecurso{
+    display: flex;
+    align-items: baseline;
+    color: #F7ECCF;
+    gap: 20px;
+    font-size: 1.3em;
+    width: 53rem
+;
+}
+
+.nomecurso h3{
+min-width: 10rem;
+min-height: 3rem;
+text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.479)
+}
+
+.nomecurso p {
+    font-size: 1.6rem;
+    margin-left: 2rem;
+    text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.479)
+}
+.curso h3{
+    width: 8.9rem;
+}
+
+.escolaridadehabilidade {
+    display: flex;
+    flex-direction: column;
+
+}
+.cursos {
+    display: flex;
+    flex-direction: column;
+}
+.app {
+    color: #F7ECCF;
+    font-size: 1.5rem;
+    margin: 0;
+    text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.479);
+}
+
+.nota {
+    width: 10rem;
+    height: 2rem;
+    margin-top: 0.5rem;
+}
+
+.tecapp1, .tecapp2, .tecapp3, .tecapp4 {
+    display: flex;
+    align-items: baseline;
+    color: #F7ECCF;
+    gap: 20px;
+}
+
+.cinemarktexto, .orbitaltexto, .proairtexto {
+    text-shadow: 3px 5px 0px rgba(0,0,0,0.24);
+    color: #DDC89D;
+    padding: 1rem;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.subtexto{
+    display: flex;
+    color: #F7ECCF;
+    gap: 20px;
+    font-size: 1.3em;
+}
+
+.hab {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.orghabtec {
+    display: flex;  
+gap: 13rem;
+    align-items: center;
+    justify-content: center;
+padding-bottom: 15rem;
+padding-top: 5rem;
+}  
+
+
+.data {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #F7ECCF;
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.exp {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.orgexp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+    padding-bottom: 10rem;
+}
+
+.data span, .nomecurso span, .nomescolaridade span, .nomehabilidade span {
+    color: #A9363D;
+}
+
+.logofooter{
+    display: flex;
+    justify-content: center;
+    background-color: #C77C77;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 1.5rem;
+}
+.orglinksfooter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.orglinksfooter a{
+    color: #F7ECCF;
+    font-size: 1.3rem;
+    margin: 0;
+}
+
+.orglinksfooter{
+    display: flex;
+    justify-content: center;
+    background-color: #C77C77;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+}
